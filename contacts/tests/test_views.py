@@ -21,8 +21,3 @@ class ContactTests(TestCase):
         self.assertEqual(Contact.objects.count(), 1)
 
     # Add more test cases for other views
-
-
-git add tests
-git commit -m "Created a tests folder with an __init__.py file to make it a package and added a tests_views.py file to write tests for my views"
-git push
